@@ -5,4 +5,5 @@
 + 使用0.91寸OLED 128X32
 + MicroPython
 #### <a href='https://github.com/adafruit/micropython-adafruit-ssd1306'>ssd1306驱动fork自adafruit</a>
-<img href='https://github.com/rtyfghvbnlndl/OLED_Segment_Displays_MicroPython/数码管.jpg'></img>
+
+![看看](数码管.jpg)
