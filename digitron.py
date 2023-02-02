@@ -1,8 +1,4 @@
-from machine import Pin, I2C
-import ssd1306
 import time
-
-machine.freq(160000000)
 class digitron(object):
     def __init__(self,display):
         self.display=display
@@ -96,6 +92,8 @@ class digitron(object):
         self.display.show()
 
 if __name__ == '__main__':
+    from machine import Pin, I2C
+    import ssd1306
     i2c = I2C(scl=Pin(5), sda=Pin(4), freq=100000)
     display = ssd1306.SSD1306_I2C(128, 32, i2c)
 
